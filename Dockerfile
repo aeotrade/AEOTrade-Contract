@@ -9,4 +9,4 @@ RUN useradd -m aeotrade -s /bin/bash && \
 
 USER aeotrade
 EXPOSE 8081
-CMD ["sh", "-c", "java -jar /usr/share/aeochaincontract/aeochaincontract.war"]
+CMD ["java", "-jar", "aeochaincontract.jar"]
